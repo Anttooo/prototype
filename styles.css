@@ -1,3 +1,133 @@
 body {
   background-color: #FF9376;
 }
+
+#main-title {
+  position: absolute;
+  width: 147px;
+  height: 72px;
+  left: 56px;
+  top: 92px;
+  font-family: Farro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  font-feature-settings: 'zero' on;
+
+  color: #FEF2EA;
+}
+
+#home-description {
+  position: absolute;
+width: 263px;
+height: 244px;
+left: 56px;
+top: 212px;
+
+font-family: Farro;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+font-feature-settings: 'zero' on;
+
+color: #FEF2EA;
+}
+
+#quiz-start {
+  position: absolute;
+width: 239px;
+height: 29px;
+left: 68px;
+top: 597px;
+
+font-family: Farro;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+font-feature-settings: 'zero' on;
+
+color: #FFFFFF;
+
+}
+
+#skip {
+  position: absolute;
+width: 107px;
+height: 51px;
+left: 134px;
+top: 699px;
+
+font-family: Farro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+font-feature-settings: 'zero' on;
+
+color: #FEF2EA;
+}
+
+#slider {
+  position: absolute;
+  width: 300px;
+  height: 44px;
+  left: 37px;
+  top: 439px;
+}
+
+.question {
+  position: absolute;
+width: 312px;
+height: 223px;
+left: 33px;
+top: 124px;
+
+font-family: Farro;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+font-feature-settings: 'zero' on;
+color: #FEF2EA;
+}
+
+.previous-arrow {
+  position: absolute;
+width: 42px;
+height: 46px;
+left: 21px;
+top: 549px;
+
+font-family: Farro;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 48px;
+font-feature-settings: 'zero' on;
+
+color: rgba(254, 242, 234, 0.7);
+}
+
+.forward-arrow{
+  position: absolute;
+  width: 42px;
+  height: 46px;
+  left: 311px;
+  top: 549px;
+
+  font-family: Farro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  font-feature-settings: 'zero' on;
+
+  color: rgba(254, 242, 234, 0.7);
+}
