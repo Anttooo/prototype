@@ -8,7 +8,7 @@
 
 <body>
 
-  <h1 class="question">
+  <h1 id="question" class="mid-text">
     Question here
   </h1>
 
@@ -16,14 +16,14 @@
 
   <div class="slidecontainer">
   <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-  <p><span id="demo"></span></p>
+  <p><span id="slider-value"></span></p>
   </div>
 
   <p class="answer"> Defined by js later </p>
 
   <script>
 var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
+var output = document.getElementById("slider-value");
 output.innerHTML = slider.value;
 
 

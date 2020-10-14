@@ -2,23 +2,49 @@ body {
   background-color: #FF9376;
 }
 
+/* here are the text styles used in this website */
+
+.large-text {
+  font-family: Farro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  font-feature-settings: 'zero' on;
+  color: #FEF2EA;
+}
+
+.mid-text {
+  font-family: Farro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-feature-settings: 'zero' on;
+
+  color: #FEF2EA;
+}
+
+.small-text {
+  font-family: Farro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  font-feature-settings: 'zero' on;
+
+  color: #FEF2EA;
+}
+
+/* here are the positionings */
+
 #main-title {
   position: absolute;
   width: 147px;
   height: 72px;
   left: 56px;
   top: 92px;
-  font-family: Farro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 72px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
-  font-feature-settings: 'zero' on;
-
-  color: #FEF2EA;
 }
 
 #home-description {
@@ -27,15 +53,6 @@ width: 263px;
 height: 244px;
 left: 56px;
 top: 212px;
-
-font-family: Farro;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 18px;
-font-feature-settings: 'zero' on;
-
-color: #FEF2EA;
 }
 
 #quiz-start {
@@ -45,15 +62,6 @@ height: 29px;
 left: 68px;
 top: 597px;
 
-font-family: Farro;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 36px;
-font-feature-settings: 'zero' on;
-
-color: #FFFFFF;
-
 }
 
 #skip {
@@ -62,16 +70,6 @@ width: 107px;
 height: 51px;
 left: 134px;
 top: 699px;
-
-font-family: Farro;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 24px;
-text-align: center;
-font-feature-settings: 'zero' on;
-
-color: #FEF2EA;
 }
 
 #slider {
@@ -83,20 +81,12 @@ color: #FEF2EA;
 }
 
 
-.question {
+#question {
   position: absolute;
 width: 312px;
 height: 223px;
 left: 33px;
 top: 124px;
-
-font-family: Farro;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 48px;
-font-feature-settings: 'zero' on;
-color: #FEF2EA;
 }
 
 .previous-arrow {
@@ -105,15 +95,6 @@ color: #FEF2EA;
   height: 46px;
   left: 21px;
   top: 619px;
-
-font-family: Farro;
-font-style: normal;
-font-weight: 300;
-font-size: 48px;
-line-height: 48px;
-font-feature-settings: 'zero' on;
-
-color: rgba(254, 242, 234, 0.7);
 }
 
 .forward-arrow{
@@ -122,15 +103,6 @@ color: rgba(254, 242, 234, 0.7);
   height: 46px;
   left: 311px;
   top: 619px;
-
-  font-family: Farro;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 48px;
-  font-feature-settings: 'zero' on;
-
-  color: rgba(254, 242, 234, 0.7);
 }
 
 .answer {
@@ -140,16 +112,18 @@ height: 38px;
 left: 80px;
 top: 494px;
 
-font-family: Farro;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 24px;
-text-align: center;
-font-feature-settings: 'zero' on;
-
-color: #FEF2EA;
 }
+
+/*results page*/
+#results-final{
+  position: absolute;
+width: 302px;
+height: 291px;
+left: 33px;
+top: 101px;
+}
+
+/* slider style is defined here */
 
 .slidecontainer {
   position: absolute;
@@ -160,6 +134,7 @@ color: #FEF2EA;
 }
 
 /* The slider itself */
+
 .slider {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
@@ -172,7 +147,7 @@ color: #FEF2EA;
   transition: opacity .2s;
 }
 
-#demo {
+#slider-value {
   font-weight:bold;
   color:red;
   font-size: 100px;
