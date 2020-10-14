@@ -1,5 +1,8 @@
 body {
   background-color: #FF9376;
+  position: absolute;
+  width: 375px;
+  height: 812px;
 }
 
 /* here are the text styles used in this website */
