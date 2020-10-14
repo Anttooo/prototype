@@ -12,6 +12,8 @@ body {
   line-height: 48px;
   font-feature-settings: 'zero' on;
   color: #FEF2EA;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 .mid-text {
@@ -22,6 +24,8 @@ body {
   line-height: 36px;
   text-align: center;
   font-feature-settings: 'zero' on;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 
   color: #FEF2EA;
 }
@@ -33,6 +37,9 @@ body {
   font-size: 18px;
   line-height: 18px;
   font-feature-settings: 'zero' on;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: center;
 
   color: #FEF2EA;
 }
@@ -144,6 +151,15 @@ top: 101px;
 
 /* next steps page */
 
+#help-title {
+  position: absolute;
+  width: 272px;
+  height: 99px;
+  left: 51px;
+  top: 88px;
+  text-align: center;
+}
+
 #discuss-title {
   position: absolute;
   width: 135px;
@@ -199,34 +215,34 @@ top: 344px;
 
 #turvaverkko-text {
   position: absolute;
-  width: 137px;
-  height: 60px;
-  left: 29px;
-  top: 361px;
+width: 137px;
+height: 50px;
+left: 32px;
+top: 361px;
 }
 
 #peer-support-text {
   position: absolute;
-  width: 122px;
-  height: 63px;
+  width: 123px;
+  height: 54px;
   left: 208px;
-  top: 467px;
+  top: 460px;
 }
 
 #practical-help-text {
   position: absolute;
-  width: 135px;
-  height: 77px;
-  left: 21px;
-  top: 648px;
+width: 135px;
+height: 53px;
+left: 21px;
+top: 656px;
 }
 
 #legal-advice-text {
   position: absolute;
-  width: 135px;
-  height: 77px;
+  width: 131px;
+  height: 62px;
   left: 200px;
-  top: 779px;
+  top: 782px;
 }
 /* slider style is defined here */
 
