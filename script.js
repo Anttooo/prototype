@@ -16,16 +16,16 @@ output.innerHTML = "move the slider"; //taking the variable "output"
 
 
 slider.oninput = function() {
-if(slider.value <= 20) {
+if(slider.value <= 1) {
   output.innerHTML = "I strongly disagree";
 }
-else if(slider.value <=40) {
+else if(slider.value <=2) {
   output.innerHTML = "I disagree";
 }
-else if(slider.value <=60) {
+else if(slider.value <=3) {
   output.innerHTML = "I neither disagree or agree";
 }
-else if(slider.value <=80) {
+else if(slider.value <=4) {
   output.innerHTML = "I somewhat agree";
 }
 else{
