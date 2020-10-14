@@ -164,8 +164,69 @@ top: 101px;
   border-radius: 20px;
 }
 
+#turvaverkko-box {
+  position: absolute;
+width: 140px;
+height: 85px;
+left: 199px;
+top: 344px;
+}
 
+#peer-support-box {
+  position: absolute;
+  width: 140px;
+  height: 85px;
+  left: 16px;
+  top: 445px;
+}
 
+#practical-help-box {
+  position: absolute;
+  width: 140px;
+  height: 85px;
+  left: 195px;
+  top: 640px;
+}
+
+#legal-advice-box {
+  position: absolute;
+  width: 140px;
+  height: 85px;
+  left: 20px;
+  top: 771px;
+}
+
+#turvaverkko-text {
+  position: absolute;
+  width: 137px;
+  height: 60px;
+  left: 29px;
+  top: 361px;
+}
+
+#peer-support-text {
+  position: absolute;
+  width: 122px;
+  height: 63px;
+  left: 208px;
+  top: 467px;
+}
+
+#practical-help-text {
+  position: absolute;
+  width: 135px;
+  height: 77px;
+  left: 21px;
+  top: 648px;
+}
+
+#legal-advice-text {
+  position: absolute;
+  width: 135px;
+  height: 77px;
+  left: 200px;
+  top: 779px;
+}
 /* slider style is defined here */
 
 .slidecontainer {
