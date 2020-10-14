@@ -10,6 +10,7 @@ body {
   font-weight: bold;
   font-size: 48px;
   line-height: 48px;
+  text-align: center;
   font-feature-settings: 'zero' on;
   color: #FEF2EA;
   margin-block-start: 0px;
