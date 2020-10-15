@@ -92,6 +92,14 @@ top: 699px;
   left: 37px;
   top: 439px;
 }
+.status {
+  position: absolute;
+  width: 140px;
+  height: 15px;
+  left: 117px;
+  top: 63px;
+}
+
 
 #question {
   position: absolute;
