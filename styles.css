@@ -103,18 +103,18 @@ top: 124px;
 
 .previous-arrow {
   position: absolute;
-  width: 42px;
-  height: 46px;
-  left: 21px;
-  top: 619px;
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  top: 592px;
 }
 
 .forward-arrow{
   position: absolute;
-  width: 42px;
-  height: 46px;
-  left: 311px;
-  top: 619px;
+  width: 60px;
+  height: 60px;
+  left: 295px;
+  top: 592px;
 }
 
 .quit {
