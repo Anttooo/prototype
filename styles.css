@@ -161,6 +161,39 @@ top: 101px;
   text-align: center;
 }
 
+#women {
+  position: absolute;
+width: 128px;
+height: 128px;
+left: 205px;
+top: 322px;
+}
+
+#group {
+  position: absolute;
+width: 128px;
+height: 128px;
+left: 26px;
+top: 423px;
+}
+
+#help {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 202px;
+  top: 618px;
+transform: rotate(-90deg);
+}
+
+#legal {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 26px;
+  top: 748px;
+}
+
 #discuss-title {
   position: absolute;
   width: 135px;
