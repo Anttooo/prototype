@@ -114,6 +114,14 @@ top: 124px;
   top: 619px;
 }
 
+.quit {
+  position: absolute;
+width: 107px;
+height: 51px;
+left: 134px;
+top: 703px;
+}
+
 .answer {
   position: absolute;
   width: 214px;
