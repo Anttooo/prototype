@@ -5,6 +5,10 @@ body {
   background-color: #FF9376;
 }
 
+#results {
+  background-color: #8DAAA6;
+}
+
 /* here are the text styles used in this website */
 
 .large-text {
@@ -182,26 +186,26 @@ top: 101px;
 
 #women {
   position: absolute;
-width: 128px;
-height: 128px;
-left: 205px;
-top: 322px;
+  width: 128px;
+  height: 128px;
+  left: 205px;
+  top: 322px;
 }
 
 #group {
   position: absolute;
-width: 128px;
-height: 128px;
-left: 26px;
-top: 423px;
+  width: 128px;
+  height: 128px;
+  left: 36px;
+  top: 463px;
 }
 
 #help {
   position: absolute;
   width: 128px;
   height: 128px;
-  left: 202px;
-  top: 618px;
+  left: 207px;
+  top: 677px;
 transform: rotate(-90deg);
 }
 
@@ -210,7 +214,7 @@ transform: rotate(-90deg);
   width: 128px;
   height: 128px;
   left: 26px;
-  top: 748px;
+  top: 813px;
 }
 
 #discuss-title {
@@ -226,7 +230,7 @@ transform: rotate(-90deg);
   width: 230px;
   height: 36px;
   left: 21px;
-  top: 575px;
+  top: 635px;
 }
 
 .content {
@@ -236,26 +240,26 @@ transform: rotate(-90deg);
 
 #turvaverkko-box {
   position: absolute;
-width: 140px;
-height: 85px;
-left: 199px;
-top: 344px;
+  width: 140px;
+  height: 85px;
+  left: 199px;
+  top: 344px;
 }
 
 #peer-support-box {
   position: absolute;
   width: 140px;
   height: 85px;
-  left: 16px;
-  top: 445px;
+  left: 26px;
+  top: 485px;
 }
 
 #practical-help-box {
   position: absolute;
   width: 140px;
   height: 85px;
-  left: 195px;
-  top: 640px;
+  left: 200px;
+  top: 699px;
 }
 
 #legal-advice-box {
@@ -263,15 +267,15 @@ top: 344px;
   width: 140px;
   height: 85px;
   left: 20px;
-  top: 771px;
+  top: 836px;
 }
 
 #turvaverkko-text {
   position: absolute;
-width: 137px;
-height: 50px;
-left: 32px;
-top: 361px;
+  width: 137px;
+  height: 50px;
+  left: 32px;
+  top: 361px;
 }
 
 #peer-support-text {
@@ -279,15 +283,15 @@ top: 361px;
   width: 123px;
   height: 54px;
   left: 208px;
-  top: 460px;
+  top: 500px;
 }
 
 #practical-help-text {
   position: absolute;
-width: 135px;
-height: 53px;
-left: 21px;
-top: 656px;
+  width: 135px;
+  height: 53px;
+  left: 26px;
+  top: 715px;
 }
 
 #legal-advice-text {
@@ -295,7 +299,7 @@ top: 656px;
   width: 131px;
   height: 62px;
   left: 200px;
-  top: 782px;
+  top: 847px;
 }
 /* slider style is defined here */
 
